@@ -1,0 +1,209 @@
+2026-08-27 06:00:11 [INFO] ============================================================
+2026-08-27 06:00:11 [INFO] STEP 1: Downloading GloFAS forecasts and writing GeoTIFFs
+2026-08-27 06:00:11 [INFO] ============================================================
+2026-08-27 06:00:11 [INFO] Processing forecast date: 2026-08-25
+/home/thnguyen/gitlab/ewers/climada_workspace/climada_petals/climada_petals/hazard/rf_glofas/river_flood_computation.py:182: UserWarning: The specified chunks separate the stored chunks along dimension "latitude" starting at index 1377. This could degrade performance. Instead, consider rechunking after loading.
+  self.flood_maps = xr.open_dataarray(
+/home/thnguyen/gitlab/ewers/climada_workspace/climada_petals/climada_petals/hazard/rf_glofas/river_flood_computation.py:182: UserWarning: The specified chunks separate the stored chunks along dimension "longitude" starting at index 3480. This could degrade performance. Instead, consider rechunking after loading.
+  self.flood_maps = xr.open_dataarray(
+2026-08-27 06:00:13,541 INFO [2024-02-01T00:00:00] Please note that accessing this dataset via CDS for time-critical operation is not advised or supported
+2026-08-27 06:00:13 [INFO] [2024-02-01T00:00:00] Please note that accessing this dataset via CDS for time-critical operation is not advised or supported
+2026-08-27 06:00:13,542 INFO [2024-02-01T00:00:00] Please note we suggest checking the list of known issues on the GloFAS wiki
+[here](https://confluence.ecmwf.int/display/CEMS/GloFAS+-+Known+Issues)
+before downloading the dataset.
+2026-08-27 06:00:13 [INFO] [2024-02-01T00:00:00] Please note we suggest checking the list of known issues on the GloFAS wiki
+[here](https://confluence.ecmwf.int/display/CEMS/GloFAS+-+Known+Issues)
+before downloading the dataset.
+2026-08-27 06:00:13,542 INFO Request ID is 434a60e3-3c68-466a-9685-d68a593a6915
+2026-08-27 06:00:13 [INFO] Request ID is 434a60e3-3c68-466a-9685-d68a593a6915
+2026-08-27 06:00:16,288 INFO status has been updated to accepted
+2026-08-27 06:00:16 [INFO] status has been updated to accepted
+2026-08-27 06:00:39,645 INFO status has been updated to running
+2026-08-27 06:00:39 [INFO] status has been updated to running
+2026-08-27 06:02:12,535 INFO status has been updated to successful
+2026-08-27 06:02:12 [INFO] status has been updated to successful
+2026-08-27 06:02:12 [INFO] Downloading https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-cache-2/2026-08-27/da791559a1c45dc1bae2cf55b0e2435b.grib
+da791559a1c45dc1bae2cf55b0e2435b.grib:   0%|          | 0.00/226M [00:00<?, ?B/s]da791559a1c45dc1bae2cf55b0e2435b.grib:   0%|          | 1.00M/226M [00:00<01:39, 2.38MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:   3%|▎         | 6.00M/226M [00:00<00:16, 13.9MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:   5%|▌         | 12.0M/226M [00:00<00:09, 24.9MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:   8%|▊         | 18.0M/226M [00:00<00:06, 32.9MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  11%|█         | 24.0M/226M [00:00<00:05, 38.7MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  13%|█▎        | 30.0M/226M [00:01<00:04, 42.7MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  16%|█▌        | 36.0M/226M [00:01<00:04, 45.6MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  19%|█▊        | 42.0M/226M [00:01<00:04, 47.7MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  21%|██        | 48.0M/226M [00:01<00:03, 49.2MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  24%|██▍       | 54.0M/226M [00:01<00:03, 50.3MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  26%|██▌       | 59.0M/226M [00:01<00:04, 37.7MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  28%|██▊       | 64.0M/226M [00:01<00:04, 38.8MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  30%|███       | 69.0M/226M [00:02<00:04, 39.4MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  33%|███▎      | 74.0M/226M [00:02<00:03, 40.4MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  35%|███▍      | 79.0M/226M [00:02<00:03, 41.4MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  37%|███▋      | 84.0M/226M [00:02<00:03, 42.4MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  39%|███▉      | 89.0M/226M [00:02<00:03, 43.3MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  42%|████▏     | 94.0M/226M [00:02<00:03, 44.2MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  44%|████▎     | 99.0M/226M [00:02<00:02, 45.0MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  46%|████▋     | 105M/226M [00:02<00:02, 47.2MB/s] da791559a1c45dc1bae2cf55b0e2435b.grib:  49%|████▉     | 111M/226M [00:02<00:02, 48.7MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  52%|█████▏    | 117M/226M [00:03<00:02, 50.0MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  54%|█████▍    | 123M/226M [00:03<00:02, 50.6MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  57%|█████▋    | 129M/226M [00:03<00:01, 51.3MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  60%|█████▉    | 135M/226M [00:03<00:01, 51.7MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  62%|██████▏   | 141M/226M [00:03<00:01, 52.0MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  65%|██████▍   | 147M/226M [00:03<00:01, 52.3MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  68%|██████▊   | 153M/226M [00:03<00:01, 52.4MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  70%|███████   | 159M/226M [00:03<00:01, 52.5MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  73%|███████▎  | 165M/226M [00:04<00:01, 52.6MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  76%|███████▌  | 171M/226M [00:04<00:01, 52.6MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  78%|███████▊  | 177M/226M [00:04<00:00, 52.7MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  81%|████████  | 183M/226M [00:04<00:00, 52.8MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  84%|████████▎ | 189M/226M [00:04<00:00, 52.7MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  86%|████████▌ | 195M/226M [00:04<00:00, 52.7MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  89%|████████▉ | 201M/226M [00:04<00:00, 52.7MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  91%|█████████▏| 207M/226M [00:04<00:00, 52.7MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  94%|█████████▍| 213M/226M [00:04<00:00, 52.7MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  97%|█████████▋| 219M/226M [00:05<00:00, 52.7MB/s]da791559a1c45dc1bae2cf55b0e2435b.grib:  99%|█████████▉| 225M/226M [00:05<00:00, 52.7MB/s]                                                                                         2026-08-27 06:05:40,861 - climada.hazard.xarray - WARNING - Failed to read values of 'number' as dates. Hazard.event_name will be empty strings
+/home/thnguyen/gitlab/ewers/climada_workspace/climada_petals/REACH_basic.py:232: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hazard_n    = hazard_series_from_dataset(ds_flood, intensity="flood_depth", event_dim="number")[0]
+2026-08-27 06:05:42 [INFO] Saved GeoTIFF: /home/thnguyen/gitlab/ewers/climada_workspace/EA_2026-08-25_waterdepth_nounc.tif
+2026-08-27 06:05:42 [INFO] ============================================================
+2026-08-27 06:05:42 [INFO] STEP 2: Polygon flood-risk analysis
+2026-08-27 06:05:42 [INFO] ============================================================
+2026-08-27 06:05:42 [INFO] Loaded 340 polygons from /home/thnguyen/gitlab/ewers/climada_workspace/polygons.geojson (CRS: EPSG:4326)
+2026-08-27 06:05:42 [INFO] GeoTIFF shape: (1, 3270, 3192) | CRS: EPSG:4326 | bounds: (24.12917887369028, -11.720735677079535, 51.37084554035585, 14.870930989586071)
+2026-08-27 06:05:42 [INFO] Polygons intersecting raster: 125 | outside: 215
+2026-08-27 06:05:42 [WARNING]   Error on polygon 12 (El Ferdous): No data found in bounds.
+2026-08-27 06:05:42 [WARNING]   Error on polygon 14 (Pibor POC): No data found in bounds.
+2026-08-27 06:05:43 [WARNING]   Error on polygon 68 (Gorom): No data found in bounds.
+2026-08-27 06:05:43 [WARNING]   Error on polygon 70 (Babikri): No data found in bounds.
+2026-08-27 06:05:43 [WARNING]   Error on polygon 76 (Camp 6): No data found in bounds.
+2026-08-27 06:05:43 [WARNING]   Error on polygon 87 (Olua 1): No data found in bounds.
+2026-08-27 06:05:43 [WARNING]   Error on polygon 95 (Al Kashafa): No data found in bounds.
+2026-08-27 06:05:43 [INFO]   [100] Dagahaley → Very High (risk=1.2904, mean depth=1.2904 m)
+2026-08-27 06:05:43 [WARNING]   Error on polygon 102 (Markazi): No data found in bounds.
+2026-08-27 06:05:43 [WARNING]   Error on polygon 110 (Musasa): No data found in bounds.
+2026-08-27 06:05:43 [WARNING]   Error on polygon 112 (El Leri): No data found in bounds.
+2026-08-27 06:05:43 [WARNING]   Error on polygon 113 (Wau UNMISS  POC): No data found in bounds.
+2026-08-27 06:05:43 [WARNING]   Error on polygon 117 (Hol-Hol): No data found in bounds.
+2026-08-27 06:05:43 [WARNING]   Error on polygon 132 (Al Redis2): No data found in bounds.
+2026-08-27 06:05:43 [WARNING]   Error on polygon 142 (Al Nimir): No data found in bounds.
+2026-08-27 06:05:44 [WARNING]   Error on polygon 147 (Um Sangour): No data found in bounds.
+2026-08-27 06:05:44 [INFO]   [150] Mishamo → Low (risk=0.0000, mean depth=0.0000 m)
+2026-08-27 06:05:44 [WARNING]   Error on polygon 157 (Kigeme): No data found in bounds.
+2026-08-27 06:05:44 [WARNING]   Error on polygon 158 (Gasorwe / Kinama): No data found in bounds.
+2026-08-27 06:05:44 [WARNING]   Error on polygon 204 (Bor POC): No data found in bounds.
+2026-08-27 06:05:44 [WARNING]   Error on polygon 220 (Olua 2): No data found in bounds.
+2026-08-27 06:05:44 [WARNING]   Error on polygon 222 (Aysaitya Refugee Camp): No data found in bounds.
+2026-08-27 06:05:44 [WARNING]   Error on polygon 229 (Mboti): No data found in bounds.
+2026-08-27 06:05:45 [WARNING]   Error on polygon 278 (Nyankanda): No data found in bounds.
+2026-08-27 06:05:45 [WARNING]   Error on polygon 290 (Dabat Bosin): No data found in bounds.
+2026-08-27 06:05:45 [WARNING]   Error on polygon 308 (Kebribeyah Refugee Camp): No data found in bounds.
+2026-08-27 06:05:45 [WARNING]   Error on polygon 319 (Nyabiheke): No data found in bounds.
+2026-08-27 06:05:45 [INFO] Summary — processed: 100 | errors: 25 | outside: 215
+2026-08-27 06:05:45 [INFO] 
+Top 10 highest-risk sites:
+2026-08-27 06:05:45 [INFO]   Oliji                          Very High (4.3650) | mean 4.3650 m | max 7.3600 m
+2026-08-27 06:05:45 [INFO]   Jourie                         Very High (1.7850) | mean 1.7850 m | max 1.8000 m
+2026-08-27 06:05:45 [INFO]   Dagahaley                      Very High (1.2904) | mean 1.2904 m | max 7.3500 m
+2026-08-27 06:05:45 [INFO]   Rhino                          Low (0.0138) | mean 0.0138 m | max 4.6100 m
+2026-08-27 06:05:45 [INFO]   Meiram                         Low (0.0031) | mean 0.0031 m | max 0.0061 m
+2026-08-27 06:05:45 [INFO]   Al Alagaya                     Low (0.0004) | mean 0.0004 m | max 0.0004 m
+2026-08-27 06:05:45 [INFO]   Palabek                        Low (0.0001) | mean 0.0001 m | max 0.0942 m
+2026-08-27 06:05:45 [INFO]   Ifo                            Low (0.0000) | mean 0.0000 m | max 0.0001 m
+2026-08-27 06:05:45 [INFO]   Ifo 2E                         Low (0.0000) | mean 0.0000 m | max 0.0000 m
+2026-08-27 06:05:45 [INFO]   Ulyankulu                      Low (0.0000) | mean 0.0000 m | max 0.0013 m
+2026-08-27 06:05:45 [INFO] Created 340 records
+2026-08-27 06:05:45 [INFO] GeoJSON saved: polygons_with_flood_risk.geojson
+2026-08-27 06:05:45 [INFO] CSV saved: flood_risk_and_water_depths.csv
+2026-08-27 06:05:46 [INFO] Static map saved: flood_risk_map.png
+2026-08-27 06:05:46 [INFO] ============================================================
+2026-08-27 06:05:46 [INFO] STEP 3: Building HTML dashboard
+2026-08-27 06:05:46 [INFO] ============================================================
+2026-08-27 06:05:46 [INFO] Country ISO codes found in data: ['BDI', 'ETH', 'KEN', 'SDN', 'SSD', 'TZA', 'UGA']
+2026-08-27 06:05:46 [INFO] Map centre (2.62, 35.12), zoom 4
+2026-08-27 06:05:46 [INFO] HTML dashboard saved: flood_risk_dashboard.html
+2026-08-27 06:05:46 [INFO] Git committing and pushing
+[main cca277f] Daily update
+ Committer: Thanh Huy NGUYEN <thnguyen@private.list.lu@l-37611.private.list.lu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+To github.com:thnguyen-grs/REACH_prototype.git
+   f3e5bcb..cca277f  main -> main
+2026-08-27 06:05:48 [INFO] Pipeline complete.
+Total features       : 340
+Features with geometry: 340
+Features with site_code: 340
+Sample properties    : {'objectid': 346, 'globalid': '{B5951C18-694F-45F6-8FAB-C2078BBD61CB}', 'name': 'Mantapala', 'source': None, 'update_date': 1637144069000, 'site_code': 'ZMBs034147', 'acode': None, 'name_alt': None, 'gis_status': 14, 'Shape__Area': 13220248.35188912, 'Shape__Length': 20454.083583844273, 'update_by': 'UNHCR_WRITER', 'created_user': 'UNHCR_WRITER', 'created_date': 1637144069000.0, 'flood_risk_level': 'Low', 'flood_risk_value': 0.0, 'water_depth_mean_m': 0.0, 'water_depth_max_m': 0.0, 'water_depth_min_m': 0.0, 'water_depth_median_m': 0.0}
+Sample geometry type : Polygon
+2026-08-28 06:00:07 [INFO] ============================================================
+2026-08-28 06:00:07 [INFO] STEP 1: Downloading GloFAS forecasts and writing GeoTIFFs
+2026-08-28 06:00:07 [INFO] ============================================================
+2026-08-28 06:00:07 [INFO] Processing forecast date: 2026-08-26
+/home/thnguyen/gitlab/ewers/climada_workspace/climada_petals/climada_petals/hazard/rf_glofas/river_flood_computation.py:182: UserWarning: The specified chunks separate the stored chunks along dimension "latitude" starting at index 1377. This could degrade performance. Instead, consider rechunking after loading.
+  self.flood_maps = xr.open_dataarray(
+/home/thnguyen/gitlab/ewers/climada_workspace/climada_petals/climada_petals/hazard/rf_glofas/river_flood_computation.py:182: UserWarning: The specified chunks separate the stored chunks along dimension "longitude" starting at index 3480. This could degrade performance. Instead, consider rechunking after loading.
+  self.flood_maps = xr.open_dataarray(
+2026-08-28 06:00:08,541 INFO [2024-02-01T00:00:00] Please note that accessing this dataset via CDS for time-critical operation is not advised or supported
+2026-08-28 06:00:08 [INFO] [2024-02-01T00:00:00] Please note that accessing this dataset via CDS for time-critical operation is not advised or supported
+2026-08-28 06:00:08,541 INFO [2024-02-01T00:00:00] Please note we suggest checking the list of known issues on the GloFAS wiki
+[here](https://confluence.ecmwf.int/display/CEMS/GloFAS+-+Known+Issues)
+before downloading the dataset.
+2026-08-28 06:00:08 [INFO] [2024-02-01T00:00:00] Please note we suggest checking the list of known issues on the GloFAS wiki
+[here](https://confluence.ecmwf.int/display/CEMS/GloFAS+-+Known+Issues)
+before downloading the dataset.
+2026-08-28 06:00:08,542 INFO Request ID is 6b6279c9-c97b-4aca-b48b-0f65c06694f4
+2026-08-28 06:00:08 [INFO] Request ID is 6b6279c9-c97b-4aca-b48b-0f65c06694f4
+2026-08-28 06:00:09,261 INFO status has been updated to accepted
+2026-08-28 06:00:09 [INFO] status has been updated to accepted
+2026-08-28 06:00:47,231 INFO status has been updated to running
+2026-08-28 06:00:47 [INFO] status has been updated to running
+2026-08-28 06:03:07,419 INFO status has been updated to successful
+2026-08-28 06:03:07 [INFO] status has been updated to successful
+2026-08-28 06:03:07 [INFO] Downloading https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-cache-2/2026-08-28/935cde5342468e1b0da7af1f6a6a6657.grib
+935cde5342468e1b0da7af1f6a6a6657.grib:   0%|          | 0.00/226M [00:00<?, ?B/s]935cde5342468e1b0da7af1f6a6a6657.grib:   0%|          | 1.00M/226M [00:00<01:49, 2.15MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:   3%|▎         | 6.00M/226M [00:00<00:17, 12.9MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:   5%|▌         | 12.0M/226M [00:00<00:09, 23.5MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:   8%|▊         | 18.0M/226M [00:00<00:06, 31.6MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  11%|█         | 24.0M/226M [00:01<00:06, 33.6MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  12%|█▏        | 28.0M/226M [00:01<00:06, 34.4MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  15%|█▌        | 34.0M/226M [00:01<00:05, 39.5MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  18%|█▊        | 40.0M/226M [00:01<00:04, 43.3MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  20%|██        | 46.0M/226M [00:01<00:04, 46.0MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  23%|██▎       | 52.0M/226M [00:01<00:03, 48.0MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  26%|██▌       | 58.0M/226M [00:01<00:03, 49.1MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  28%|██▊       | 64.0M/226M [00:01<00:03, 50.3MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  31%|███       | 70.0M/226M [00:01<00:03, 50.8MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  34%|███▎      | 76.0M/226M [00:02<00:03, 51.3MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  36%|███▌      | 81.0M/226M [00:02<00:02, 51.3MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  38%|███▊      | 86.0M/226M [00:02<00:02, 51.3MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  41%|████      | 92.0M/226M [00:02<00:02, 51.2MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  43%|████▎     | 98.0M/226M [00:02<00:02, 51.3MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  46%|████▌     | 103M/226M [00:02<00:02, 51.1MB/s] 935cde5342468e1b0da7af1f6a6a6657.grib:  48%|████▊     | 108M/226M [00:02<00:02, 50.8MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  50%|████▉     | 113M/226M [00:02<00:02, 50.8MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  52%|█████▏    | 118M/226M [00:02<00:02, 50.0MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  54%|█████▍    | 123M/226M [00:03<00:02, 50.3MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  57%|█████▋    | 129M/226M [00:03<00:02, 51.0MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  59%|█████▉    | 134M/226M [00:03<00:02, 46.4MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  61%|██████▏   | 139M/226M [00:03<00:02, 43.1MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  64%|██████▎   | 144M/226M [00:03<00:01, 44.6MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  66%|██████▋   | 150M/226M [00:03<00:01, 46.9MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  69%|██████▉   | 156M/226M [00:03<00:01, 48.5MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  72%|███████▏  | 162M/226M [00:03<00:01, 49.7MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  74%|███████▍  | 168M/226M [00:04<00:01, 50.5MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  76%|███████▋  | 173M/226M [00:04<00:01, 50.4MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  79%|███████▊  | 178M/226M [00:04<00:00, 50.9MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  81%|████████  | 183M/226M [00:04<00:00, 51.1MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  83%|████████▎ | 188M/226M [00:04<00:00, 50.6MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  86%|████████▌ | 194M/226M [00:04<00:00, 51.2MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  88%|████████▊ | 200M/226M [00:04<00:00, 51.7MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  91%|█████████ | 206M/226M [00:04<00:00, 52.0MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  94%|█████████▎| 212M/226M [00:04<00:00, 52.1MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  96%|█████████▋| 218M/226M [00:05<00:00, 52.3MB/s]935cde5342468e1b0da7af1f6a6a6657.grib:  99%|█████████▉| 224M/226M [00:05<00:00, 52.3MB/s]                                                                                         2026-08-28 06:06:27,959 - climada.hazard.xarray - WARNING - Failed to read values of 'number' as dates. Hazard.event_name will be empty strings
+/home/thnguyen/gitlab/ewers/climada_workspace/climada_petals/REACH_basic.py:232: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hazard_n    = hazard_series_from_dataset(ds_flood, intensity="flood_depth", event_dim="number")[0]
+2026-08-28 06:06:29 [INFO] Saved GeoTIFF: /home/thnguyen/gitlab/ewers/climada_workspace/EA_2026-08-26_waterdepth_nounc.tif
+2026-08-28 06:06:29 [INFO] ============================================================
+2026-08-28 06:06:29 [INFO] STEP 2: Polygon flood-risk analysis
+2026-08-28 06:06:29 [INFO] ============================================================
+2026-08-28 06:06:29 [INFO] Loaded 340 polygons from /home/thnguyen/gitlab/ewers/climada_workspace/polygons.geojson (CRS: EPSG:4326)
+2026-08-28 06:06:29 [INFO] GeoTIFF shape: (1, 3270, 3192) | CRS: EPSG:4326 | bounds: (24.12917887369028, -11.720735677079535, 51.37084554035585, 14.870930989586071)
+2026-08-28 06:06:29 [INFO] Polygons intersecting raster: 125 | outside: 215
+2026-08-28 06:06:29 [WARNING]   Error on polygon 12 (El Ferdous): No data found in bounds.
+2026-08-28 06:06:29 [WARNING]   Error on polygon 14 (Pibor POC): No data found in bounds.
+2026-08-28 06:06:30 [WARNING]   Error on polygon 68 (Gorom): No data found in bounds.
+2026-08-28 06:06:30 [WARNING]   Error on polygon 70 (Babikri): No data found in bounds.
+2026-08-28 06:06:30 [WARNING]   Error on polygon 76 (Camp 6): No data found in bounds.
+2026-08-28 06:06:30 [WARNING]   Error on polygon 87 (Olua 1): No data found in bounds.
+2026-08-28 06:06:30 [WARNING]   Error on polygon 95 (Al Kashafa): No data found in bounds.
+2026-08-28 06:06:30 [INFO]   [100] Dagahaley → Very High (risk=1.2904, mean depth=1.2904 m)
+2026-08-28 06:06:30 [WARNING]   Error on polygon 102 (Markazi): No data found in bounds.
+2026-08-28 06:06:30 [WARNING]   Error on polygon 110 (Musasa): No data found in bounds.
+2026-08-28 06:06:30 [WARNING]   Error on polygon 112 (El Leri): No data found in bounds.
+2026-08-28 06:06:30 [WARNING]   Error on polygon 113 (Wau UNMISS  POC): No data found in bounds.
+2026-08-28 06:06:30 [WARNING]   Error on polygon 117 (Hol-Hol): No data found in bounds.
+2026-08-28 06:06:31 [WARNING]   Error on polygon 132 (Al Redis2): No data found in bounds.
+2026-08-28 06:06:31 [WARNING]   Error on polygon 142 (Al Nimir): No data found in bounds.
+2026-08-28 06:06:31 [WARNING]   Error on polygon 147 (Um Sangour): No data found in bounds.
+2026-08-28 06:06:31 [INFO]   [150] Mishamo → Low (risk=0.0000, mean depth=0.0000 m)
+2026-08-28 06:06:31 [WARNING]   Error on polygon 157 (Kigeme): No data found in bounds.
+2026-08-28 06:06:31 [WARNING]   Error on polygon 158 (Gasorwe / Kinama): No data found in bounds.
+2026-08-28 06:06:32 [WARNING]   Error on polygon 204 (Bor POC): No data found in bounds.
+2026-08-28 06:06:32 [WARNING]   Error on polygon 220 (Olua 2): No data found in bounds.
+2026-08-28 06:06:32 [WARNING]   Error on polygon 222 (Aysaitya Refugee Camp): No data found in bounds.
+2026-08-28 06:06:32 [WARNING]   Error on polygon 229 (Mboti): No data found in bounds.
+2026-08-28 06:06:32 [WARNING]   Error on polygon 278 (Nyankanda): No data found in bounds.
+2026-08-28 06:06:32 [WARNING]   Error on polygon 290 (Dabat Bosin): No data found in bounds.
+2026-08-28 06:06:32 [WARNING]   Error on polygon 308 (Kebribeyah Refugee Camp): No data found in bounds.
+2026-08-28 06:06:32 [WARNING]   Error on polygon 319 (Nyabiheke): No data found in bounds.
+2026-08-28 06:06:33 [INFO] Summary — processed: 100 | errors: 25 | outside: 215
+2026-08-28 06:06:33 [INFO] 
+Top 10 highest-risk sites:
+2026-08-28 06:06:33 [INFO]   Oliji                          Very High (4.3650) | mean 4.3650 m | max 7.3600 m
+2026-08-28 06:06:33 [INFO]   Jourie                         Very High (1.7850) | mean 1.7850 m | max 1.8000 m
+2026-08-28 06:06:33 [INFO]   Dagahaley                      Very High (1.2904) | mean 1.2904 m | max 7.3500 m
+2026-08-28 06:06:33 [INFO]   Rhino                          Low (0.0138) | mean 0.0138 m | max 4.6100 m
+2026-08-28 06:06:33 [INFO]   Meiram                         Low (0.0031) | mean 0.0031 m | max 0.0061 m
+2026-08-28 06:06:33 [INFO]   Al Alagaya                     Low (0.0004) | mean 0.0004 m | max 0.0004 m
+2026-08-28 06:06:33 [INFO]   Palabek                        Low (0.0001) | mean 0.0001 m | max 0.0793 m
+2026-08-28 06:06:33 [INFO]   Ifo                            Low (0.0000) | mean 0.0000 m | max 0.0001 m
+2026-08-28 06:06:33 [INFO]   Ifo 2E                         Low (0.0000) | mean 0.0000 m | max 0.0000 m
+2026-08-28 06:06:33 [INFO]   Ulyankulu                      Low (0.0000) | mean 0.0000 m | max 0.0013 m
+2026-08-28 06:06:33 [INFO] Created 340 records
+2026-08-28 06:06:33 [INFO] GeoJSON saved: polygons_with_flood_risk.geojson
+2026-08-28 06:06:33 [INFO] CSV saved: flood_risk_and_water_depths.csv
+2026-08-28 06:06:33 [INFO] Static map saved: flood_risk_map.png
+2026-08-28 06:06:33 [INFO] ============================================================
+2026-08-28 06:06:33 [INFO] STEP 3: Building HTML dashboard
+2026-08-28 06:06:33 [INFO] ============================================================
+2026-08-28 06:06:33 [INFO] Country ISO codes found in data: ['BDI', 'ETH', 'KEN', 'SDN', 'SSD', 'TZA', 'UGA']
+2026-08-28 06:06:33 [INFO] Map centre (2.62, 35.12), zoom 4
+2026-08-28 06:06:33 [INFO] HTML dashboard saved: flood_risk_dashboard.html
+2026-08-28 06:06:33 [INFO] Git committing and pushing
+Total features       : 340
+Features with geometry: 340
+Features with site_code: 340
+Sample properties    : {'objectid': 346, 'globalid': '{B5951C18-694F-45F6-8FAB-C2078BBD61CB}', 'name': 'Mantapala', 'source': None, 'update_date': 1637144069000, 'site_code': 'ZMBs034147', 'acode': None, 'name_alt': None, 'gis_status': 14, 'Shape__Area': 13220248.35188912, 'Shape__Length': 20454.083583844273, 'update_by': 'UNHCR_WRITER', 'created_user': 'UNHCR_WRITER', 'created_date': 1637144069000.0, 'flood_risk_level': 'Low', 'flood_risk_value': 0.0, 'water_depth_mean_m': 0.0, 'water_depth_max_m': 0.0, 'water_depth_min_m': 0.0, 'water_depth_median_m': 0.0}
+Sample geometry type : Polygon
+Traceback (most recent call last):
+  File "/home/thnguyen/gitlab/ewers/climada_workspace/climada_petals/REACH_basic.py", line 891, in <module>
+    shutil.copy("REACH_basic.log", f"{GIT_REPO}/REACH_basic.log")
+  File "/home/thnguyen/miniforge3/envs/climada_env/lib/python3.11/shutil.py", line 431, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/thnguyen/miniforge3/envs/climada_env/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'REACH_basic.log'
